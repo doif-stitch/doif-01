@@ -4,6 +4,7 @@ function Counter() {
   const [number, setNumber] = useState(0);
   const onAdd = (params) => {
     setNumber(number + params);
+    //setNumber(() => number + params);
   };
   const onMiuns = (params) => {
     setNumber(number - params);
