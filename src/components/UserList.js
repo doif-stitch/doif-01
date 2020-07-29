@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 const User = React.memo(({ user, onToggle, onRemove }) => {
   console.log('user ReRendering');
